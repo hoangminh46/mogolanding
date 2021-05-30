@@ -148,12 +148,20 @@ a {
 }
 
 .btn__learnmore {
+  position: relative;
   display: inline-block;
   margin-top: 50px;
   padding: 12px 30px;
   border: 2px solid #FFF;
   font-size: 1.1rem;
   font-weight: 600;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.btn__learnmore:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 216, 137, 0.9)), to(rgba(235, 155, 156, 0.9)));
+  background: linear-gradient(rgba(240, 216, 137, 0.9), rgba(235, 155, 156, 0.9));
 }
 
 .heading-about {

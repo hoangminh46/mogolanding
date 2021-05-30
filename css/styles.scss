@@ -110,13 +110,20 @@ a{
     font-weight: bold;
 }
 .btn__learnmore{
+    position: relative;
     display: inline-block;
     margin-top: 50px;
     padding: 12px 30px;
     border: 2px solid $whiteColor;
     font-size: 1.1rem;
     font-weight: 600;
+    transition: all linear 0.5s;
 }
+.btn__learnmore:hover{
+    background: linear-gradient(rgba(240,216,137,0.9),rgba(235, 155, 156, 0.9));
+}
+
+
 
 .heading-about{
     display: flex;
